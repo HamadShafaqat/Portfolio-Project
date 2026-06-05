@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamad's Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left"><a href="">Hamad's Portfolio</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="first">
+            <div class="intro">
+                <span class="availability">AVAILABLE FOR WORK</span>
+                <h1>Building</h1>
+                <h1>Digital</h1>
+                <h1>Experiences.</h1>
+                <p>I'm a full-stack developer specializing in building exceptional digital experiences that are fast,
+                    accessible, and visually stunning.</p>
+                <button class="contact-btn" onclick="window.location.href='#contact'">Contact Me</button>
+            </div>
+            <div class="image">
+                <img id="heroImage" src="linkedin.png" alt="a webdeveloper" />
+            </div>
+        </section>
+        <section  id="about" class="secondSection">
+            <div class="myPic">
+                <!-- <img src="Mypic.jpg" alt="a man looking at screen"> -->
+            </div>
+            <div class="about">
+                <h2>Passionate about solving complex problems.</h2>
+                <p>With years of experience in the industry, I have developed a keen eye for design and a strong
+                    foundation in software engineering. I believe in writing clean, maintainable code.</p>
+                <div class="info-boxes">
+                    <div class="box">
+                        <h3>Location</h3>
+                        <p>Remote / Global</p>
+                    </div>
+                    <div class="box">
+                        <h3>Education</h3>
+                        <p>Bachelors in IT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section  id="skills" class="thirdSection">
+            <div class="skills">
+                <h2>Tech Stack</h2>
+                <div class="info-boxes">
+                    <div class="skills-box">
+                        <h3>Front-End</h3>
+                        <p>React, Tailwind, JS</p>
+                    </div>
+                    <div class="skills-box">
+                        <h3>Back-End</h3>
+                        <p>Node.js, Firebase</p>
+                    </div>
+                    <div class="skills-box">
+                        <h3>Databases</h3>
+                        <p>PostgreSQL, Firestore</p>
+                    </div>
+                    <div class="skills-box">
+                        <h3>AI Integration</h3>
+                        <p>Gemini API, LLMs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section  id="projects" class="forthSection">
+            <div class="projects">
+                <h2>Featured Work</h2>
+                <div class="projectsContainer">
+                    <div class="projectCard">
+                        <img src="1st.avif" alt="Project Image">
+
+                        <div class="projectContent">
+                            <h3>Nexus FinTech Dashboard</h3>
+                            <p>Real-time trading visualization with React and Highcharts.</p>
+                            <a href="#">Why this stack?</a>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <img src="2nd.avif" alt="Project Image">
+
+                        <div class="projectContent">
+                            <h3>E-Commerce Store</h3>
+                            <p>Sustainable shopping platform with full-stack Node.js integration.</p>
+                            <a href="#">Why this stack?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section  id="contact" class="contact-section">
+            <div class="contact-card">
+
+                <!-- LEFT SIDE -->
+                <div class="contact-info">
+                    <h2>Start a Project?</h2>
+                    <p>
+                        I'm currently accepting new projects.
+                        Let's build something amazing together.
+                    </p>
+
+                    <div class="email">
+                        <span>hamadshafaqat71@gmail.com</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" rows="5"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
